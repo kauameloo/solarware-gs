@@ -39,6 +39,37 @@ npm run dev
 
 O projeto estará disponível em http://localhost:3000.
 
+## Como Rodar a API em Java
+
+1. **Navegue até o diretório da API:**
+
+   Após clonar o repositório, entre na pasta da API:
+
+   ```bash
+   cd API-Java/DigitalMavericks
+   ```
+
+2. **Abra o projeto em uma IDE:**
+
+   - Utilize sua IDE favorita, como **IntelliJ IDEA** ou **VS Code**.
+   - Abra o diretório `API-Java/DigitalMavericks` como um projeto.
+
+3. **Configure as dependências:**
+
+   Certifique-se de que o Maven (ou outro gerenciador de dependências configurado no projeto) baixe todas as dependências automaticamente. Caso necessário, rode:
+
+   ```bash
+   mvn install
+   ```
+
+4. **Inicie a aplicação:**
+
+   Navegue até a classe `Main` no projeto, localize o método `main` e inicie a aplicação diretamente pela IDE.
+
+5. **Acesse a API:**
+
+   Após iniciar, a API estará rodando localmente. Verifique o terminal para a porta padrão, geralmente `http://localhost:8080`.
+
 ## Funcionalidades
 
 **Simulador de Impacto Solar**
