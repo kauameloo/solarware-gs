@@ -1,6 +1,7 @@
 # SolarWare
 
-Link do vercel:
+Link do vercel: https://solarware-gs.vercel.app/
+Link do repositório: https://github.com/kauameloo/solarware-gs
 
 SolarWare é uma aplicação web que demonstra o impacto e os benefícios da energia solar. O projeto inclui um simulador interativo para calcular o impacto ambiental e econômico da energia solar, informações sobre seus benefícios, e um formulário de contato para dúvidas ou sugestões.
 
