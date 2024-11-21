@@ -23,7 +23,6 @@ import {
 export default function EmissionsComparison() {
   const [solarPercentage, setSolarPercentage] = useState(50);
 
-  // Simulação de dados - isso seria substituído por cálculos reais baseados na API
   const data = [
     {
       name: "Emissões de CO2",

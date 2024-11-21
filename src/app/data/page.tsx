@@ -32,7 +32,6 @@ export default function DataPage() {
     fetchCaseStudies();
   }, []);
 
-  // Estes dados viriam de uma API ou banco de dados
   const impactData = {
     energySaved: 1200000, // Em kWh, energia economizada anualmente por uma instalação solar comercial de médio porte
     carbonReduced: 480000, // Em kg de CO₂ evitado por ano com a geração solar

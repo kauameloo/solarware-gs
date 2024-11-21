@@ -22,16 +22,6 @@ export default function SimulatorForm() {
   const [results, setResults] = useState<any>(null);
 
   const handleSimulate = async () => {
-    // Aqui você faria a chamada para a API Python para processar os dados
-    // const response = await fetch('/api/simulate', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify({ percentSolar, years, initialCost }),
-    // });
-    // const data = await response.json();
-    // setResults(data);
-
-    // Por enquanto, vamos simular alguns resultados
     const simulatedResults = {
       carbonReduction: percentSolar * years * 0.5,
       financialSavings: percentSolar * years * 100 - initialCost,
